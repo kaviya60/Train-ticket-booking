@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cadetblue;
+    background-image: url(./train2.jfif);
+    backdrop-filter:blur(4px) ;
+    -webkit-backdrop-filter: blur(4px);
+    background-color: transparent;
+    background-size: cover;
+}
+.container{
+    width: 55%;
+    height: 550px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color:darksalmon;
+}
+.details{
+    display: inline-block;
+    width: 45%;
+    padding: 10px;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.details:first-child{
+    float: left;
+}
+.details:last-child{
+    float: right;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input,select{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius:4px ;
+}
+.submit-btn{
+    display: block;
+    width: 30%;
+    padding: 10px;
+    margin: auto;
+    background-color: darksalmon;
+    color: white;
+    border-radius: 5px;
+}
